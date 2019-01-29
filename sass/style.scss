@@ -7,14 +7,81 @@
 }
 
 .navbar{
-	min-height: 50px;
+	min-height: 60px;
 	margin-bottom: 0px;
-	border: none;
-	background-color: white;
+
+	a{
+		font-family: $fuente-ppal;
+		font-size: 12px;
+		padding-top: 10px;
+	}
 
 	.navbar-brand{
 		a{
-			padding: 0px 0px 0px 0px;
+			padding: 0px 0px 0px 10px;
 		}
+	}
+}
+
+.Section_1{
+	background-image: url("../imgs/Body/Slide_Top.png");
+	background-repeat: none;
+	height: 750px;
+    text-align: center;
+
+	.jumbotron{
+	    background-color: transparent;
+	    border-radius: 0px;
+	    color: inherit;
+		font-family: $fuente-h1;
+		font-size: 100px;
+		font-style: bold;
+	    margin-top: 90px;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	}
+
+	p{
+		font-family: $fuente-ppal;
+		font-size: 14px;
+		color: $color-fuente-texto;
+	}
+
+}
+
+.button-slide{
+    border: 1px #777 solid;
+    border-radius: 30px;
+	color: black;
+    display: inline-block;
+	font-family: $fuente-ppal;
+	font-size: 16px;
+    margin: 0px 5px;
+    margin-top: 20px;
+    padding: 10px 20px;
+	&:hover{
+		background-color: #e777;
+		border: none;
+		color: white;
+		font-style: bold;
+		text-decoration: none;
+	}
+}
+
+.Section_2{
+	font-family: $fuente-ppal;
+	text-align: center;
+	margin-top: 30px;
+	h2{
+		color: black;
+		font-size: 50px;
+		font-style: bold;
+		margin-bottom: 30px;
+	}	
+	p{
+		color: $color-fuente-texto;
+		font-size: 12px;
+		line-height: 20px;
+		padding: 0px 150px;
 	}
 }

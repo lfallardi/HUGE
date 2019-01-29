@@ -90,11 +90,65 @@ input, select {
   padding: 0px; }
 
 .navbar {
-  min-height: 50px;
-  margin-bottom: 0px;
-  border: none;
-  background-color: white; }
+  min-height: 60px;
+  margin-bottom: 0px; }
+  .navbar a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    padding-top: 10px; }
   .navbar .navbar-brand a {
-    padding: 0px 0px 0px 0px; }
+    padding: 0px 0px 0px 10px; }
+
+.Section_1 {
+  background-image: url("../imgs/Body/Slide_Top.png");
+  background-repeat: none;
+  height: 750px;
+  text-align: center; }
+  .Section_1 .jumbotron {
+    background-color: transparent;
+    border-radius: 0px;
+    color: inherit;
+    font-family: "Pacifico", cursive;
+    font-size: 100px;
+    font-style: bold;
+    margin-top: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .Section_1 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #777; }
+
+.button-slide {
+  border: 1px #777 solid;
+  border-radius: 30px;
+  color: black;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin: 0px 5px;
+  margin-top: 20px;
+  padding: 10px 20px; }
+  .button-slide:hover {
+    background-color: #e777;
+    border: none;
+    color: white;
+    font-style: bold;
+    text-decoration: none; }
+
+.Section_2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 30px; }
+  .Section_2 h2 {
+    color: black;
+    font-size: 50px;
+    font-style: bold;
+    margin-bottom: 30px; }
+  .Section_2 p {
+    color: #777;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px 150px; }
 
 /*# sourceMappingURL=style.css.map */
