@@ -116,3 +116,19 @@ p{
 	}
 
 }
+
+.Counter{
+	text-align: center;
+	padding: 50px 50px;	
+	.progress{
+		height: 100px;
+		width: 100px;
+		border-radius: 50px;
+
+	}
+	.progress-bar{
+		height: 50px;
+		width: 50px;
+		border-radius: 50px;
+	}
+}
