@@ -32,8 +32,8 @@
 <body>
 
 	<head>
-		<nav class="navbar navbar-default">
-			<div class="container">
+		<nav class="container navbar navbar-default">
+			<div class="">
 			<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -63,7 +63,7 @@
 		</nav>
 	</head>
 
-	<section class="container-fluid Section_1">
+	<section class="container-fluid" id="Section_1">
 		<div class="row">
 			<div class="col-lg-6 col-lg-offset-6 Slide">
 				<div class="row">
@@ -76,7 +76,7 @@
 		</div>
 	</section>
 
-	<section class="container Section_Hello">
+	<section class="container" id="Section_Hello">
 		<div class="row">
 			<div class="col-lg-12">
 				<h2>Hello! We are a Huge agency.</h2>
@@ -85,7 +85,7 @@
 		</div>
 	</section>
 
-	<section class="container-fluid Section-Huge-Demos">
+	<section class="container-fluid" id="Section-Huge-Demos">
 		<div class="row">
 			<h2>HUGE Ultimate Creative Demos</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -125,32 +125,88 @@
 
 	</section>
 
-	<section class="container Counter">
+	<section class="container" id="Counter">
 		<div class="row">
 			<div class="col-lg-3 col-xs-12">
-				<div class="progress">
-  					<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-  					</div>
+ 				<div class="outercircle">
+ 					<svg class="circular__progress__bar" viewBox="0 0 100 100">
+	 					<defs>
+	 						<pattern id="pattern" width="10%" height="10%" patternUnits="userSpaceOnUse">	<line x1="0" y1="0" x2="200" y2="200"></line>
+	 						</pattern>
+	 					</defs>
+	 					
+ 						<path class="circular__progress__bar__trail" d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92" stroke-width="8" fill-opacity="0"></path>
+ 					
+ 						<path class="circular__progress__bar__path" d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92" stroke-width="8" fill-opacity="0" style="stroke-dasharray: 350.027px, 350.027px; stroke-dashoffset: 95.3788px;">
+ 						</path>
+ 						<text class="circular__progress__bar__text" x="50" y="50">90%</text>
+ 					</svg>
 				</div>
+				<h5>Adobe Photoshop</h5>
+				<p>aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed.</p>
 			</div>
 			<div class="col-lg-3 col-xs-12">
-				<div class="progress">
-  					<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-  					</div>
+ 				<div class="outercircle">
+ 					<svg class="circular__progress__bar" viewBox="0 0 100 100">
+	 					<defs>
+	 						<pattern id="pattern" width="10%" height="10%" patternUnits="userSpaceOnUse">	<line x1="0" y1="0" x2="200" y2="200"></line>
+	 						</pattern>
+	 					</defs>
+	 					
+ 						<path class="circular__progress__bar__trail" d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92" stroke-width="8" fill-opacity="0"></path>
+ 					
+ 						<path class="circular__progress__bar__path" d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92" stroke-width="8" fill-opacity="0" style="stroke-dasharray: 242.027px, 242.027px; stroke-dashoffset: 95.3788px;">
+ 						</path>
+ 						<text class="circular__progress__bar__text" x="50" y="50">50%</text>
+ 					</svg>
 				</div>
+				<h5>Graphic Design</h5>
+				<p>aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed.</p>
 			</div>
 			<div class="col-lg-3 col-xs-12">
-				<div class="progress">
-  					<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-  					</div>
+ 				<div class="outercircle">
+ 					<svg class="circular__progress__bar" viewBox="0 0 100 100">
+	 					<defs>
+	 						<pattern id="pattern" width="10%" height="10%" patternUnits="userSpaceOnUse">	<line x1="0" y1="0" x2="200" y2="200"></line>
+	 						</pattern>
+	 					</defs>
+	 					
+ 						<path class="circular__progress__bar__trail" d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92" stroke-width="8" fill-opacity="0"></path>
+ 					
+ 						<path class="circular__progress__bar__path" d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92" stroke-width="8" fill-opacity="0" style="stroke-dasharray: 310.027px, 310.027px; stroke-dashoffset: 95.3788px;">
+ 						</path>
+ 						<text class="circular__progress__bar__text" x="50" y="50">76%</text>
+ 					</svg>
 				</div>
+				<h5>Web Developer</h5>
+				<p>aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed.</p>
 			</div>
 			<div class="col-lg-3 col-xs-12">
-				<div class="progress">
-  					<div class="progress-bar" role="progressbar" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100" style="width: 39%;">
-  					</div>
+ 				<div class="outercircle">
+ 					<svg class="circular__progress__bar" viewBox="0 0 100 100">
+	 					<defs>
+	 						<pattern id="pattern" width="10%" height="10%" patternUnits="userSpaceOnUse">	<line x1="0" y1="0" x2="200" y2="200"></line>
+	 						</pattern>
+	 					</defs>
+	 					
+ 						<path class="circular__progress__bar__trail" d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92" stroke-width="8" fill-opacity="0"></path>
+ 					
+ 						<path class="circular__progress__bar__path" d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92" stroke-width="8" fill-opacity="0" style="stroke-dasharray: 208.027px, 208.027px; stroke-dashoffset: 95.3788px;">
+ 						</path>
+ 						<text class="circular__progress__bar__text" x="50" y="50">39%</text>
+ 					</svg>
 				</div>
+				<h5>Social Networking</h5>
+				<p>aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed.</p>
 			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid" id="Portfolio">
+		<div class="row">
+			<h2>Portfolio Showcase
+				<i><span></span></i>
+			</h2>			
 		</div>
 	</section>
 
